@@ -18,7 +18,7 @@ The game operates with an asynchronous, non-blocking input scheme:
 The code compiles directly on any POSIX-compliant terminal system (Linux, macOS, WSL) without needing extra dependencies.
 ### Compilation:
 ```bash
-gcc -O3 pacman_infinite_loop.c -o asciiman
+gcc -O3 asciiman.c -o asciiman
 
 ```
 *(The -O3 flag is highly recommended for advanced compiler optimizations.)*
